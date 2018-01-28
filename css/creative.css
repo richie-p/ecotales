@@ -11,7 +11,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: rgb(95,45,136);
 }
 
 hr.light {
@@ -19,14 +19,14 @@ hr.light {
 }
 
 a {
-  color: #F05F40;
+  color: rgb(95,45,136);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #f05f40;
+  color: rgb(95,45,136);
 }
 
 h1,
@@ -94,7 +94,7 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   -text-transform: uppercase;
-  color: #F05F40;
+  color: rgb(95,45,136);
   -font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-family: 'Fredoka One', cursive;
   -webkit-text-stroke-width: 0px;
@@ -119,12 +119,12 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #F05F40;
+  color: rgb(95,45,136);
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #F05F40 !important;
+  color: rgb(95,45,136) !important;
   background-color: transparent;
 }
 
@@ -180,7 +180,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #F05F40;
+    color: rgb(95,45,136);
     -webkit-text-stroke-width: .5px;
   }
 }
@@ -295,7 +295,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #F05F40 !important;
+  color: rgb(95,45,136) !important;
 }
 
 .btn {
@@ -312,13 +312,13 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: rgb(95,45,136);
+  border-color: rgb(95,45,136);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: rgb(95,45,100) !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -332,7 +332,7 @@ header.masthead p {
 .headline{
   font-family: 'Fredoka One', cursive;
   font-size: 1.8rem !important;
-  color: #0f60ab;
+  color: rgb(19,76,159);
 }
 .banner{
   margin-top:3rem !important;
@@ -343,6 +343,7 @@ header.masthead p {
 }
 .grid-square{
   border: 1px solid rgba(0,0,0,0.75);
+  background:#fff;
   padding: .2rem;
   margin-bottom:1rem;
   width: 11rem;
