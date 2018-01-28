@@ -205,10 +205,30 @@ header.masthead h1 {
 header.masthead p {
   font-weight: 300;
 }
+.navbar{
+  display:none;
+}
+
+@media (min-width: 576px) {
+
+  .col-sm-2{
+    max-width:100%;
+  }
+  .mast-logo-width{
+    width:60%!important;
+  }
+}
 
 @media (min-width: 768px) {
-  header.masthead p {
-    font-size: 1.15rem;
+
+  .alphabet{
+    display:block!important;
+  }
+  .headline{
+    font-size:1.6rem!important;
+  }
+  .btn-xl{
+    margin:0rem 0 6rem 0!important;
   }
 }
 
@@ -221,6 +241,19 @@ header.masthead p {
   }
   header.masthead h1 {
     font-size: 3rem;
+  }
+  .navbar{
+    display: block;
+  }
+  .mast-logo-width{
+    width:40%!important;
+  }
+  .grid-square > .letter{
+    font-size:9rem;
+    margin-top:-3;
+  }
+  .grid-square img{
+    width:82%!important;
   }
 }
 
@@ -312,6 +345,7 @@ header.masthead p {
 
 .btn-xl {
   padding: 1rem 2rem;
+  margin:-2rem 0 8rem 0;
 }
 
 .btn-primary {
@@ -334,7 +368,7 @@ header.masthead p {
 }
 .headline{
   font-family: 'Fredoka One', cursive;
-  font-size: 1.8rem !important;
+  font-size: 1.3rem;
   color: rgb(19,76,159);
 }
 .banner{
@@ -354,6 +388,7 @@ header.masthead p {
   -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  margin:0 auto 1rem auto;
 }
 .grid-square > .letter{
   color: #000000;
@@ -379,6 +414,9 @@ header.masthead p {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
+.alphabet{
+  display:none;
+}
 .contact-icon{
   float:left;
 }
@@ -389,7 +427,7 @@ header.masthead p {
   padding-top:3rem;
 }
 .mast-logo-width{
-  width:35%;
+  width:90%;
 }
 .bold-text{
   font-weight: 1000;
