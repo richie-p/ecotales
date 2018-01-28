@@ -397,6 +397,6 @@ header.masthead p {
   margin-bottom:0;
 }
 
-.simple-ajax-popup-align-top{
-  max-width:800px;
+.mfp-wrap{
+  max-width:1024px!important;
 }
