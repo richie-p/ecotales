@@ -11,7 +11,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: rgb(12,0,26)!important;
+  border-color: rgb(95,45,136);
 }
 
 hr.light {
@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-  color: rgb(95,45,136);
+  color:rgb(212,0,26)!important;
 }
 
 h1,
@@ -400,8 +400,4 @@ header.masthead p {
 
 .mfp-content{
   max-width:1024px!important;
-}
-
-.contact-text > a:hover{
-  color:rgb(212,0,26)!important;
 }
