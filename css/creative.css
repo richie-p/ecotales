@@ -401,3 +401,7 @@ header.masthead p {
 .mfp-content{
   max-width:1024px!important;
 }
+
+.contact-text > a:hover{
+  color:rgb(212,0,26)!important;
+}
