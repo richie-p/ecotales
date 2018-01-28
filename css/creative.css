@@ -230,6 +230,9 @@ header.masthead p {
   .btn-xl{
     margin:0rem 0 6rem 0!important;
   }
+  .character-description{
+    font-size:1.6rem!important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -455,4 +458,12 @@ header.masthead p {
 .btn:hover{
   background:rgb(212,0,26)!important;
   color:#fff!important;
+}
+
+.character-description{
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.2rem;
+    background: #fff;
+    padding:3rem 3rem;
+    max-width:1024px;
 }
