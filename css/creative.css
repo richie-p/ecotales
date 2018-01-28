@@ -100,6 +100,9 @@ img::-moz-selection {
   -webkit-text-stroke-width: 0px;
   -webkit-text-stroke-color: #000000;
 }
+.navbar-brand img{
+  width:26%;
+}
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #13a3f0;
@@ -403,10 +406,13 @@ header.masthead p {
 }
 
 .social-icons{
-  padding-top:2rem;
+  padding-top:8rem;
 }
 .social-icons i{
   margin: 0 1rem;
+}
+#contact{
+  padding-bottom:0;
 }
 .btn:hover{
   background:rgb(212,0,26)!important;
