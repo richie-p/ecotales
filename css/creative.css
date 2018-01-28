@@ -396,3 +396,7 @@ header.masthead p {
 .no-bottom-margin{
   margin-bottom:0;
 }
+
+.simple-ajax-popup-align-top{
+  max-width:800px;
+}
