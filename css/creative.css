@@ -408,3 +408,7 @@ header.masthead p {
 .social-icons i{
   margin: 0 1rem;
 }
+.btn:hover{
+  background:rgb(212,0,26)!important;
+  color:#fff!important;
+}
