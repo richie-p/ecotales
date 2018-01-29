@@ -471,3 +471,6 @@ header.masthead p {
   float:left;
   margin:-20px 30px 0 -.1rem;
 }
+a{
+  outline: none!important;
+}
