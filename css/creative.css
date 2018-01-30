@@ -233,6 +233,9 @@ header.masthead p {
   .character-description{
     font-size:1.6rem!important;
   }
+  .contact{
+    margin:4rem auto 11rem auto!important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -454,6 +457,10 @@ header.masthead p {
 }
 #contact{
   padding-bottom:0;
+}
+.contact{
+  width:14rem;
+  margin:4rem 0 0 0;
 }
 .btn:hover{
   background:rgb(212,0,26)!important;
